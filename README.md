@@ -1,2 +1,372 @@
-# MPMB-5.1E_One-DnD-UA-Content
-This script adds all of the content from the 2022-2023 series of Unearthed Arcana articles
+# MPMB 5.1E/One D&D UA Content
+This script adds all of the content from the 2022-2023 series of Unearthed Arcana articles to the MPMB sheets. This includes code that adds all official WotC subclasses to these UA classes.
+
+**Script Credit Note:**
+A lot of the content of this script is either ripped directly from existing code or is an altered form of existing code. I have tried to diligently note when I copied code from elsewhere, but I probably missed some instances. A lack of note saying I ripped the code from elsewhere either means that I wrote that section of code entirely myself or that the code that was copied to use as a starting point was so heavily altered by me that almost nothing of the copied code exists.
+
+*Further Credit Notes:*
+- I will note that the Monk class & class options code was done by user "Nod" instead of myself. Much thanks to Nod for providing the code they had already written for the class and making my life easier. I did make some edits to make sure it conformed to the source referencing scheme in the rest of my scripts, but I otherwise left it largely unaltered.
+- The Weapon Mastery Code was made by user "Joost/MorePurpleMoreBetter".
+- The code for the "Two-Handed Improvised Weapon" was made with help from user "TrackatNite".
+
+This script will allow users to more easily playtest the upcoming revision to D&D 5E.
+
+**Script Patch Notes:**
+- **2024-05-23:**
+  - Initial upload of script.
+
+**Script Content Sources:**
+- *UA22CO*: https://media.dndbeyond.com/compendium-images/one-dnd/character-origins/CSWCVV0M4B6vX6E1/UA2022-CharacterOrigins.pdf
+- *UA22XC*: https://media.dndbeyond.com/compendium-images/one-dnd/expert-classes/kpx0MvyfBGHe0XKk/UA2022-Expert-Classes.pdf
+- *UA22CS*: https://media.dndbeyond.com/compendium-images/one-dnd/cleric-and-revised-species/tr8jAj5cc33uQixi/UA-2022-ClericandSpecies.pdf
+- *UA23DP*: https://media.dndbeyond.com/compendium-images/one-dnd/druid-paladin/PXoa3UgywnZbwc9U/UA-2023-DruidandPaladin.pdf
+- *UA23PT5*: https://media.dndbeyond.com/compendium-images/ua/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
+- *UA23PT6*: https://media.dndbeyond.com/compendium-images/ua/ph-playtest6/OJVW7QLuHjEFCCVs/UA-2023-PH-Playtest6.pdf
+- *UA23PT7*: https://media.dndbeyond.com/compendium-images/ua/ph-playtest7/tsgOb3llF22AL0nU/UA2023-PH-Playtest7.pdf
+- *UA23BC*: https://media.dndbeyond.com/compendium-images/ua/bastions-cantrips/BRF3GSu0nTfNu8p4/UA2023-BastionsCantrips.pdf
+- *UA23PT8*: https://media.dndbeyond.com/compendium-images/ua/ph-playtest8/gHvtmY50loGLgQUb/UA2023-PH-Playtest8.pdf
+
+For instructions on how to add this script to the sheet, please see this page: https://www.flapkan.com/how-to/add-more-content
+
+**Detailed List of Script Content:**
+- UA22CO Species
+  - Human
+  - Dwarf
+  - Elf
+  - Gnome
+  - Halfling
+  - Orc
+  - Tiefling
+- UA22CO Backgrounds
+  - Acolyte
+  - Artisan
+  - Charlatan
+  - Criminal
+  - Cultist
+  - Entertainer
+  - Farmer
+  - Gladiator
+  - Guard
+  - Guide
+  - Hermit
+  - Laborer
+  - Noble
+  - Pilgrim
+  - Sage
+  - Sailor
+  - Soldier
+  - Urchin
+- UA22CO Feats
+  - Alert
+  - Crafter
+  - Healer
+  - Musician
+- UA22XC Bard & its subclass
+  - College of Lore
+- UA22XC Feats
+  - Actor
+  - Athlete
+  - Charger
+  - Crossbow Expert
+  - Defensive Duelist
+  - Dual Wielder
+  - Durable
+  - Elemental Adept
+  - Grappler
+  - Great Weapon Master
+  - Heavily Armored
+  - Heavy Armor Master
+  - Inspiring Leader
+  - Keen Mind
+  - Lightly Armored
+  - Mage Slayer
+  - Medium Armor Master
+  - Mounted Combatant
+  - Observant
+  - Polearm Master
+  - Resiliant
+  - Ritual Caster
+  - Sentinel
+  - Sharpshooter
+  - Shield Master
+  - Skulker
+  - Speedster
+  - Spell Sniper
+  - War Caster
+  - Weapon Training
+  - Modified version of the "Gunner" Feat that is effectively a firearm version of the "Crossbow Expert" Feat, minus the "Dual Wielding" feature, since the original "Gunner" has no such feature
+- UA22XC Epic Boon Feats
+  - Combat Prowess
+  - Fortitude
+  - Luck
+  - Peerless Aim
+  - Skill Proficiency
+  - Undetectability
+  - the Unfettered
+- UA22CS species
+  - Ardling
+  - Dragonborn
+  - Goliath
+- UA22CS spells
+  - Aid
+  - Banishment
+  - Guidance
+  - Prayer of Healing
+  - Resistance
+  - Spiritual Weapon
+- Also included is an alternate form of the Prayer of Healing Spell that has been modified to be in alignment with the updates to healing spells in *UA23PT8*; Changes made amount only to doubling the healing of the spell to 4d8+2d8/SL, with no other changes made.
+- UA23DP version of the Find Familiar spell
+- CompanionList menu option for the UA23DP Find Familiar spell
+- A version of the "Otherworldly Familiar" creature for each spell level
+- The "Otherworldly Familiar" creature's "Otherworldly Scratch" attack
+- UA23DP Epic Boon Feats
+  - Fate
+  - Spell Recall
+  - Truesight
+- UA23PT5 "Weapon Master" 4th Lvl Feat
+- UA23PT5 Epic Boon Feats:
+  - Dimensional Travel
+  - Energy Resistance
+  - Irresistible Offense
+  - Recovery
+  - Speed
+  - the Night Spirit
+- Also included is an alternate form of the "Epic Boon of Irresistible Offense" Feat that operates as it was actually written in *UA23PT5*. This version of the Feat is set to be excluded by default, because as it was written in the original article, the bonus damage on a Nat 20 could be added to both weapon **AND** spell attacks, which seems unintended for a Feat that only increases Str or Dex. The version in the above list has been coded such that it only adds the bonus damage to weapons.
+- UA23PT6 Cleric & its subclasses
+  - Life
+  - Light
+  - Trickery
+  - War
+- UA23PT6 Paladin & its subclasses
+  - Devotion
+  - Glory
+  - the Ancients
+  - Vengeance
+- UA23PT6 Ranger & its subclasses
+  - Beast Master
+  - Gloom Stalker
+  - Hunter
+- UA23PT6 Rogue & its subclasses
+  - Arcane Trickster
+  - Assassin
+  - Swashbuckler
+  - Thief
+- UA23PT6 spells
+  - Banishing Smite
+  - Blinding Smite
+  - Conjure Barrage
+  - Divine Smite
+  - Elementalism
+  - Find Steed
+  - Hunter's Mark
+  - Power Word Heal
+  - Power Word Kill
+  - Searing Smite
+  - Shining Smite
+  - Staggering Smite
+  - Thunderous Smite
+  - Vicious Mockery
+  - Wrathful Smite
+- CompanionList menu option for the UA23PT6 **Find Steed** spell
+- CreatureList entries of the "Otherworldly Steed" creature for each spell level
+- The "Otherworldly Steed" creature's "Otherworldly Slam" attack
+- CompanionList menu option for the Beast Master Ranger's Primal Beasts
+- CreatureList entries for each of the Beast Master Ranger's Primal Beasts
+- The "Beast of the Sea" creature's "Binding Strike" attack
+- UA23PT6 Fighting Style Feats
+  - Archery
+  - Defense
+  - Dueling
+  - Great Weapon
+  - Protection
+  - Two-Weapon
+- UA23PT7 Fighter & its subclasses
+  - Battle Master
+  - Brawler
+  - Champion
+  - Eldritch Knight
+- UA23PT7 Sorcerer & its subclasses
+  - Draconic
+  - Wild Magic
+- UA23PT7 Warlock & its subclasses
+  - Archfey Patron
+  - Celestial Patron
+  - Fiend Patron
+  - Great Old One Patron
+  - Most of the WotC Invocations (Only the pre-2022 UA duplicates were excluded)
+- UA23PT7 Wizard & its subclasses
+  - Abjurer
+  - Diviner
+  - Evoker
+  - Illusionist
+- UA23PT7 spells
+  - Arcane Eruption
+  - Counterspell
+  - Jump
+  - Sorcerous Burst
+- Fighter "Fighting Styles" as FeatureChoices, each of which adds the corresponding Fighting Style Feat
+- UA23PT7 Fighting Style Feats (imported from *TCE*)
+  - Blind
+  - Interception
+  - Superior Technique
+  - Thrown Weapon
+  - Unarmed
+- Added "Two-Handed Improvised Weapon"; made with help from user "TrackAtNite"
+- UA23BC spells:
+  - Acid Splash
+  - Blade Ward
+  - Chill Touch
+  - Friends
+  - Poison Spray
+  - Produce Flame
+  - Shillelagh
+  - Shocking Grasp
+  - Spare the Dying
+  - True Strike
+- UA23PT8 Barbarian & its subclasses
+  - Beserker
+  - Wild Heart (Formerly known as the "Path of the Totem Warrior")
+  - World Tree
+  - Zealot
+- UA23PT8 Druid & its subclasses
+  - Land
+  - Moon
+  - Sea
+- UA23PT8 Monk & its subclasses
+  - Shadow
+  - the Elements (Formerly known as the "Way of the Four Elements")
+  - the Hand (Formerly known as the "Way of the Open Hand")
+- UA23PT8 spells
+  - Conjure Animals
+  - Conjure Celestial
+  - Conjure Elemental
+  - Conjure Fey
+  - Conjure Minor Elementals
+  - Conjure Woodland Beings
+  - Cure Wounds
+  - Fount of Moonlight
+  - Healing Word
+  - Mass Cure Wounds
+  - Mass Healing Word
+  - Power Word Fortify
+  - Starry Wisp
+- Bard Subclasses (8):
+  - Creation
+  - Eloquence
+  - Glamour
+  - Satire (UA:KoO)
+  - Spirits
+  - Swords
+  - Valor
+  - Whispers
+- Barbarian Subclasses (6):
+  - Ancestral Guardian
+  - Battlerager
+  - Beast
+  - Giant
+  - Storm Herald
+  - Wild Magic
+- Cleric Subclasses (11):
+  - Arcana
+  - City (UA:MM)
+  - Death
+  - Forge
+  - Grave
+  - Knowledge
+  - Nature
+  - Order
+  - Peace
+  - Tempest
+  - Twilight
+- Druid Subclasses (7):
+  - Dreams
+  - Spores
+  - the Primeval (UA:GO)
+  - the Stars
+  - Twilight (UA:DC)
+  - WIldfire
+- Fighter Subclasses (11):
+  - Arcane Archer
+  - Brute (UA:TS)
+  - Cavalier
+  - Echo Knight
+  - Monster Hunter (UA:GH)
+  - Psi Warrior
+  - Purple Dragon Knight
+  - Rune Knight
+  - Samurai
+  - Scout (UA:KoO)
+  - Sharpshooter (UA:FMA)
+- Monk Subclasses (8):
+  - Mercy
+  - the Ascendant Dragon
+  - the Astral Self
+  - the Drunken Master
+  - the Kensei
+  - the Long Death
+  - the Sun Soul
+  - Tranquility (UA:MMT)
+- Paladin Subclasses (5):
+  - Conquest
+  - Crown
+  - Oathbreaker
+  - Redemption
+  - Watchers
+- Ranger Subclasses (6):
+  - Deep Stalker (UA:LDU)
+  - Drakewarden
+  - Fey Wanderer
+  - Horizon Walker
+  - Monster Slayer
+  - Swarmkeeper
+- Rogue Subclasses (6):
+  - Inquisitive
+  - Mastermind
+  - Phantom
+  - Scout
+  - Soulknife
+  - The Revived (UA:FRnR)
+- Sorcerer Subclasses (13):
+  - Aberrant Mind
+  - Clockwork Soul
+  - Divine Soul
+  - ~~Favored Soul (UA:MC) (Note from MasterJedi2014: This has one large piece of custom code that I think I didn't break by altering, but I might be wrong.)~~ *Temporarily Disabled*
+  - Favored Soul (UA:RS)
+  - Favored Soul (UA:SO)
+  - Giant Soul (UA:GSS) (This is the most heavily altered of the Sorcerer subclasses)
+  - Lunar Socery (Note from MasterJedi2014: This has too many small pieces of custom code that I don't completely understand & I don't want to break, so I have only changed the 1st lvl subclass features to be 3rd lvl subclass features.)
+  - Phoenix Sorcery (UA:SO)
+  - Sea Sorcery (UA:SO)
+  - Shadow Magic
+  - Stone Sorcery (UA:SO)
+  - Storm Sorcery
+- Warlock Subclasses (11):
+  - Fathomless
+  - Genie
+  - Ghost in the Machine (UA:MM)
+  - Hexblade
+  - Lurker in the Deep (UA:SnW)
+  - Noble Genie (UA:SP1)
+  - Raven Queen (UA:WnW)
+  - Seeker (UA:TF)
+  - Undead
+  - Undying
+  - Undying Light (UA:LDU)
+- Wizard Subclasses (17):
+  - Bladesinging
+  - Chronurgy Magic
+  - Conjuration
+  - Enchantment
+  - Graviturgy Magic
+  - Lore Master (UA:WnW)
+  - Necromancy
+  - Onomancy (True name magic) (UA:CDnW)
+  - Order of the Scribes
+  - Psionics (UA:FRnW)
+  - School of Invention (UA:TS)
+  - Technomancy (UA:MM)
+  - ~~Theurgy (UA:TF)~~ *Temporarily Disabled*
+  - Tradition of Runecrafting (UA:GO)
+  - Tradition of the Artificer (UA:E)
+  - Transmutation
+  - War Magic
