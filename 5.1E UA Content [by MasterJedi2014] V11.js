@@ -11848,6 +11848,9 @@ ClassList.wizard_ua23pt7 = {
 		spells : "book",
 		prepared : true,
 	},
+	spellcastingList : {
+		class : ["wizard", "wizard_ua23pt7"]
+	},
 	features : {
 		"arcane recovery ua23pt7" : { //Ripped directly from "ListsClasses.js" and then altered
 			name : "Arcane Recovery",
@@ -11879,15 +11882,20 @@ ClassList.wizard_ua23pt7 = {
 				"  level. If I lose my spellbook, I can use the same procedure to transcribe my prepared Wizard",
 				"  spells into a new spellbook.",
 			]),
-			/*	I have added language to the description regarding the copying of spells into a spellbook, how
-				many spells a Wizard gets upon lvl up, & the cost of replacing/copying the spellbook; I'd
-				personally rather have that info explicitly on the sheet than have to look it up every time it
-				comes up. I know doing so tripled the length of the description, but I personally feel it is
-				worth it. You can change it back if you want when you make the official revision updates to the
-				class code, Joost.		-MasterJedi2014	*/
 			additional : levels.map(function (n, idx) {
 				return [3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5][idx] + " cantrips known";
 			}),
+			calcChanges : {
+				spellList : [
+					function(spList, spName, spType) {
+						// If this is not the UA wizard spell list or if this is a bonus spell
+						if(spName !== "wizard_ua23pt7" || spType.indexOf("bonus") !== -1) return;
+						// Add all "wizard" spells to the UA wizard spell list
+						var aSpells = CreateSpellList({"class" : "wizard", level : [0,9]}, false, false, false);
+						spList.extraspells = spList.extraspells.concat(aSpells);
+					}
+				]
+			}
 		},
 		"scholar ua23pt7" : function() { //Copied directly from the Rogue's "Expertise" feature in "ListsClasses.js" and then altered
 			var a = {
