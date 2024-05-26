@@ -7,7 +7,7 @@ A lot of the content of this script is either ripped directly from existing code
 *Further Credit Notes:*
 - I will note that the Monk class & class options code was done by user "Nod" instead of myself. Much thanks to Nod for providing the code they had already written for the class and making my life easier. I did make some edits to make sure it conformed to the source referencing scheme in the rest of my scripts, but I otherwise left it largely unaltered.
 - The Weapon Mastery Code was made by user "Joost/MorePurpleMoreBetter".
-- The code for the "Two-Handed Improvised Weapon" was made with help from user "TrackatNite".
+- The code for the "Two-Handed Improvised Weapon" was made with help from user "TrackAtNite".
 
 This script will allow users to more easily playtest the upcoming revision to D&D 5E.
 
