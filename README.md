@@ -19,7 +19,7 @@ This script will allow users to more easily playtest the upcoming revision to D&
 
 **Known Bugs:**
 - A lot of the Monk subclasses don't appear in the "Subclass / Archetype" selection dropdown in the "Class Selection" dialog window, but they do appear in the dialog window when the Monk reaches lvl 3 and doesn't pick a subclass with the dropdown.
- - As such, the current workaround solution is to just leave the "Subclass / Archetype" field blank in the "Class Selection" dialog window, click "Apply", then use the new dialog window the sheet brings up to pick your Monk subclass.
+  - As such, the current workaround solution is to just leave the "Subclass / Archetype" field blank in the "Class Selection" dialog window, click "Apply", then use the new dialog window the sheet brings up to pick your Monk subclass.
 - ~~The 2014 Wizard spells are not showing up in the "Set Spells: Wizard" dialog window's "Spellbook" column, though they do show up in the "Bonus Spells" column.~~ Fixed on 2024-05-26. Thank you to users "TrackAtNite" & "PoetOfGod" for their help in fixing this bug.
 
 **Script Content Sources:**
