@@ -18,8 +18,9 @@ This script will allow users to more easily playtest the upcoming revision to D&
   - Fixed a bug preventing the 2014 Wizard spells from appearing in the "Set Spells: Wizard" dialog window's "Spellbook" column.
 
 **Known Bugs:**
-- The Monk subclasses in this article (along with a lot of the subclasses added in this script https://github.com/MasterJedi2014/MPMB-WotC-Subclasses-for-UA-Classes) don't appear in the subclass selection dropdown, but they do appear in the dialog window when the Monk reaches lvl 3 and doesn't pick a subclass with the dropdown.
-- ~~The 2014 Wizard spells are not showing up in the "Set Spells: Wizard" dialog window's "Spellbook" column, though they do show up in the "Bonus Spells" column.~~ Fixed on 2024-05-26. Thank you to users "TrackatNite" & "PoetOfGod" for their help in fixing this bug.
+- A lot of the Monk subclasses don't appear in the "Subclass / Archetype" selection dropdown in the "Class Selection" dialog window, but they do appear in the dialog window when the Monk reaches lvl 3 and doesn't pick a subclass with the dropdown.
+ - As such, the current workaround solution is to just leave the "Subclass / Archetype" field blank in the "Class Selection" dialog window, click "Apply", then use the new dialog window the sheet brings up to pick your Monk subclass.
+- ~~The 2014 Wizard spells are not showing up in the "Set Spells: Wizard" dialog window's "Spellbook" column, though they do show up in the "Bonus Spells" column.~~ Fixed on 2024-05-26. Thank you to users "TrackAtNite" & "PoetOfGod" for their help in fixing this bug.
 
 **Script Content Sources:**
 - *UA22CO*: https://media.dndbeyond.com/compendium-images/one-dnd/character-origins/CSWCVV0M4B6vX6E1/UA2022-CharacterOrigins.pdf
