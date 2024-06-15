@@ -1,6 +1,8 @@
 # MPMB 5.1E/One D&D UA Content
 This script adds all of the content from the 2022-2023 series of Unearthed Arcana articles to the MPMB sheets. This includes code that adds all official WotC subclasses to these UA classes.
 
+**This script is not to be used in conjunction with the individual scripts I have made for each of the 5.1E/One D&D UA articles.**
+
 **Script Credit Note:**
 A lot of the content of this script is either ripped directly from existing code or is an altered form of existing code. I have tried to diligently note when I copied code from elsewhere, but I probably missed some instances. A lack of note saying I ripped the code from elsewhere either means that I wrote that section of code entirely myself or that the code that was copied to use as a starting point was so heavily altered by me that almost nothing of the copied code exists.
 
